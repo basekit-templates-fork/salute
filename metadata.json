@@ -1,8 +1,8 @@
 {
-	"name":"Aquarelle",
-	"thumbnail":"aquarelle.png",
+	"name":"Salute",
+	"thumbnail":"salute.png",
 	"templateType":"standard",
-	"pageTypes": ["home"], 
+	"pageTypes": ["home"],
 	"tags": {
 		"en": ["dark", "inverted", "art", "gallery", "exhibition", "event", "artistic", "design", "contrast"]
 	},
