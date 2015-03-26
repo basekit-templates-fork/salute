@@ -99,8 +99,8 @@
 					}
 					.ecombasket-item-count-wrapper p {
 						font-family: @font-swatch5-font-family;
-						font-size: (@font-swatch5-font-size * 0.8);
-						line-height: (@font-swatch5-line-height * 0.8);
+						font-size: bkscale(@font-swatch5-font-size, 0.8);
+						line-height: bkscale(@font-swatch5-line-height, 0.8);
 					}
 					.ecombasket-item-price {
 						color: @color-swatch5;
@@ -112,7 +112,7 @@
 						background-color: transparent;
 						color: @font-swatch7-color;
 						display: inline-block;
-						font-size: (@font-swatch5-font-size * 0.8);
+						font-size: bkscale(@font-swatch5-font-size, 0.8);
 						text-decoration: none;
 						padding: 0.1em 0.6em 0;
 						border: none;
@@ -132,10 +132,10 @@
 				float: none;
 			}
 			p {
-				font-size: (@font-swatch5-font-size * 1.12);
+				font-size: bkscale(@font-swatch5-font-size, 1.12);
 				line-height: @font-swatch7-line-height;
 				@media only screen and (max-width : 460px) {
-					font-size: (@font-swatch5-font-size * 1);
+					font-size: bkscale(@font-swatch5-font-size, 1);
 				}
 
 				.ecombasket-total {
@@ -221,7 +221,7 @@
 
 					label {
 						display: block;
-						font-size: (@font-swatch5-font-size * 0.8);
+						font-size: bkscale(@font-swatch5-font-size, 0.8);
 						text-align: left;
 						padding-right: 1em;
 					}
@@ -333,7 +333,7 @@
 		.productlist-item-count {
 			text-align: left;
 			color: fade(@color-swatch5, 60%);
-			font-size: (@font-swatch5-font-size * 0.8);
+			font-size: bkscale(@font-swatch5-font-size, 0.8);
 			margin-bottom: 1em;
 			padding: 1em 0;
 		}
@@ -456,13 +456,13 @@
 			.ecom-productslist-title {
 				.w_horizontal_spacing;
 				.w_vertical_spacing;
-				font-size: (@font-swatch4-font-size * 1);
+				font-size: bkscale(@font-swatch4-font-size, 1);
 				line-height: @font-swatch4-line-height;
 				color: @color-swatch1;
 				background: @color-swatch2;
 				@media @tablet {
-					font-size: (@font-swatch4-font-size * 0.8);
-					line-height: (@font-swatch4-line-height * 0.8);
+					font-size: bkscale(@font-swatch4-font-size, 0.8);
+					line-height: bkscale(@font-swatch4-line-height, 0.8);
 				}
 			}
 
@@ -475,15 +475,15 @@
 				background: lighten(@color-swatch1, 15%);
 				color: @color-swatch5;
 
-				font-size: (@font-swatch5-font-size * 1);
-				line-height: (@font-swatch5-line-height * 1);
+				font-size: bkscale(@font-swatch5-font-size, 1);
+				line-height: bkscale(@font-swatch5-line-height, 1);
 				@media @tablet {
-					font-size: (@font-swatch5-font-size * 0.9);
-					line-height: (@font-swatch5-line-height * 0.9);
+					font-size: bkscale(@font-swatch5-font-size, 0.9);
+					line-height: bkscale(@font-swatch5-line-height, 0.9);
 				}
 				@media @mobile {
-					font-size: (@font-swatch5-font-size * 0.8);
-					line-height: (@font-swatch5-line-height * 0.8);
+					font-size: bkscale(@font-swatch5-font-size, 0.8);
+					line-height: bkscale(@font-swatch5-line-height, 0.8);
 				}
 			}
 		}
@@ -672,6 +672,8 @@
 				.ecom-product-vartitle {
 					display: block;
 				}
+				select {
+				}
 			}
 			// Add to cart
 			.ecom-product-add-to-cart-btn-wrapper {
@@ -735,7 +737,7 @@
 						vertical-align: middle;
 						line-height: 2;
 						padding: 0 0.6em;
-						font-size: (@font-swatch5-font-size * 0.8);
+						font-size: bkscale(@font-swatch5-font-size, 0.8);
 						margin-bottom: 0.3em;
 						border: 1px solid fade(@color-swatch5, 30%);
 						&:hover {
@@ -751,15 +753,15 @@
 		.ecom-product-long-description {
 			.w_vertical_spacing;
 			clear: both;
-			font-size: (@font-swatch5-font-size * 1);
-			line-height: (@font-swatch5-line-height * 1);
+			font-size: bkscale(@font-swatch5-font-size, 1);
+			line-height: bkscale(@font-swatch5-line-height, 1);
 			@media @tablet {
-				font-size: (@font-swatch5-font-size * 0.9);
-				line-height: (@font-swatch5-line-height * 0.9);
+				font-size: bkscale(@font-swatch5-font-size, 0.9);
+				line-height: bkscale(@font-swatch5-line-height, 0.9);
 			}
 			@media @mobile {
-				font-size: (@font-swatch5-font-size * 0.85);
-				line-height: (@font-swatch5-line-height * 0.85);
+				font-size: bkscale(@font-swatch5-font-size, 0.85);
+				line-height: bkscale(@font-swatch5-line-height, 0.85);
 			}
 		}
 	}
@@ -918,13 +920,13 @@
 					.w_vertical_spacing;
 					color: @color-swatch1;
 					background: @color-swatch2;
-					font-size: (@font-swatch4-font-size * 1);
+					font-size: bkscale(@font-swatch4-font-size, 1);
 					line-height: @font-swatch4-line-height;
 					color: @color-swatch1;
 					background: @color-swatch2;
 					@media @tablet {
-						font-size: (@font-swatch4-font-size * 0.8);
-						line-height: (@font-swatch4-line-height * 0.8);
+						font-size: bkscale(@font-swatch4-font-size, 0.8);
+						line-height: bkscale(@font-swatch4-line-height, 0.8);
 					}
 				}
 				// Price
@@ -936,15 +938,15 @@
 					background: lighten(@color-swatch1, 15%);
 					color: @color-swatch5;
 
-					font-size: (@font-swatch5-font-size * 1);
-					line-height: (@font-swatch5-line-height * 1);
+					font-size: bkscale(@font-swatch5-font-size, 1);
+					line-height: bkscale(@font-swatch5-line-height, 1);
 					@media @tablet {
-						font-size: (@font-swatch5-font-size * 0.9);
-						line-height: (@font-swatch5-line-height * 0.9);
+						font-size: bkscale(@font-swatch5-font-size, 0.9);
+						line-height: bkscale(@font-swatch5-line-height, 0.9);
 					}
 					@media @mobile {
-						font-size: (@font-swatch5-font-size * 0.8);
-						line-height: (@font-swatch5-line-height * 0.8);
+						font-size: bkscale(@font-swatch5-font-size, 0.8);
+						line-height: bkscale(@font-swatch5-line-height, 0.8);
 					}
 				}
 			}
@@ -1076,7 +1078,7 @@
 				.basket-summary-productname {
 					font-size: @font-swatch4-font-size;
 					@media @mobile {
-						font-size: (@font-swatch4-font-size * 0.8);
+						font-size: bkscale(@font-swatch4-font-size, 0.8);
 					}
 				}
 				// Price
@@ -1084,7 +1086,7 @@
 					display: block;
 					font-size: @font-swatch5-font-size;
 					@media @mobile {
-						font-size: (@font-swatch4-font-size * 0.8);
+						font-size: bkscale(@font-swatch4-font-size, 0.8);
 					}
 				}
 				// Quantity label
@@ -1096,7 +1098,7 @@
 					top: 10px;
 					line-height: 30px;
 					text-align: left;
-					font-size: (@font-swatch5-font-size * 0.8);
+					font-size: bkscale(@font-swatch5-font-size, 0.8);
 					@media @bp-checkout-compact {
 						position: relative;
 						right: 0;
@@ -1188,7 +1190,7 @@
 				@media @mobile {
 					text-align: left;
 					border-top: none;
-					font-size: (@font-swatch4-font-size * 0.9);
+					font-size: bkscale(@font-swatch4-font-size, 0.9);
 				}
 				&.basket-summary-subtotal {
 					text-align: right;
