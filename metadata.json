@@ -1,164 +1,176 @@
 {
-	"name":"Salute",
-	"thumbnail":"salute.png",
-	"templateType":"standard",
-	"pageTypes": ["home"],
-	"tags": {
-		"en": ["dark", "inverted", "art", "gallery", "exhibition", "event", "artistic", "design", "contrast"]
-	},
-	"images":[
+    "name": "Salute",
+    "thumbnail": "salute.png",
+    "templateType": "standard",
+    "pageTypes": [
+        "home"
+    ],
+    "tags": {
+        "en": [
+            "dark",
+            "inverted",
+            "art",
+            "gallery",
+            "exhibition",
+            "event",
+            "artistic",
+            "design",
+            "contrast"
+        ]
+    },
+    "images": [
         "images/default-image.jpg"
     ],
-	"colorSwatches":
-	{
+    "colorSwatches": {
         "Swatch 1": {
-            "color1":"#ffffff",
-            "color2":"#d51e18",
-            "color3":"#103cb3",
-            "color4":"#4f4f4f",
-            "color5":"#4f4f4f",
-            "color6":"#333333",
-            "color7":"#F06200"
+            "color1": "#ffffff",
+            "color2": "#d51e18",
+            "color3": "#103cb3",
+            "color4": "#4f4f4f",
+            "color5": "#4f4f4f",
+            "color6": "#333333",
+            "color7": "#F06200"
         },
         "Swatch 2": {
-            "color1":"#ffffff",
-            "color2":"#ae3f5b",
-            "color3":"#306993",
-            "color4":"#4f4f4f",
-            "color5":"#4f4f4f",
-            "color6":"#333333",
-            "color7":"#c83828"
+            "color1": "#ffffff",
+            "color2": "#ae3f5b",
+            "color3": "#306993",
+            "color4": "#4f4f4f",
+            "color5": "#4f4f4f",
+            "color6": "#333333",
+            "color7": "#c83828"
         },
         "Swatch 3": {
-			"color1":"#ffffff",
-            "color2":"#554e9f",
-            "color3":"#4f863d",
-            "color4":"#4f4f4f",
-            "color5":"#4f4f4f",
-            "color6":"#333333",
-            "color7":"#7138b8"
+            "color1": "#ffffff",
+            "color2": "#554e9f",
+            "color3": "#4f863d",
+            "color4": "#4f4f4f",
+            "color5": "#4f4f4f",
+            "color6": "#333333",
+            "color7": "#7138b8"
         },
         "Swatch 4": {
-            "color1":"#ffffff",
-            "color2":"#9f574e",
-            "color3":"#3d4c86",
-            "color4":"#4f4f4f",
-            "color5":"#4f4f4f",
-            "color6":"#333333",
-            "color7":"#b87438"
+            "color1": "#ffffff",
+            "color2": "#9f574e",
+            "color3": "#3d4c86",
+            "color4": "#4f4f4f",
+            "color5": "#4f4f4f",
+            "color6": "#333333",
+            "color7": "#b87438"
         },
         "Swatch 5": {
-          	"color1":"#ffffff",
-            "color2":"#dd102f",
-            "color3":"#0a60b9",
-            "color4":"#4f4f4f",
-            "color5":"#4f4f4f",
-            "color6":"#333333",
-            "color7":"#f02c00"
+            "color1": "#ffffff",
+            "color2": "#dd102f",
+            "color3": "#0a60b9",
+            "color4": "#4f4f4f",
+            "color5": "#4f4f4f",
+            "color6": "#333333",
+            "color7": "#f02c00"
         }
-	},
-	"fontSwatch": {
-		"title": "Palatino",
-		"font1": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "36px",
-			"font-weight": "400",
-			"line-height": "80px",
-			"color": "@color-swatch1",
-			"background-color": "@color-swatch2",
-			"background-color-hover": "@color-swatch1",
-			"letter-spacing": "inherit"
-		},
-		"font2": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "24px",
-			"font-weight": "400",
-			"line-height": "66px",
-			"color": "@color-swatch4",
-			"background-color": "@color-swatch1",
-			"background-color-hover": "@color-swatch2",
-			"letter-spacing": "inherit"
-		},
-		"font3": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "20px",
-			"font-weight": "400",
-			"line-height": "36px",
-			"color": "@color-swatch4",
-			"background-color": "@color-swatch3",
-			"background-color-hover": "@color-swatch3",
-			"letter-spacing": "inherit"
-		},
-		"font4": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "18px",
-			"font-weight": "400",
-			"line-height": "36px",
-			"color": "@color-swatch4",
-			"background-color": "@color-swatch4",
-			"background-color-hover": "@color-swatch4",
-			"letter-spacing": "inherit"
-		},
-		"font5": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "16px",
-			"font-weight": "400",
-			"line-height": "25px",
-			"color": "@color-swatch5",
-			"background-color": "@color-swatch5",
-			"background-color-hover": "@color-swatch5",
-			"letter-spacing": "inherit"
-		},
-		"font6": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "16px",
-			"font-weight": "400",
-			"line-height": "35px",
-			"color": "@color-swatch1",
-			"color-hover": "@color-swatch1",
-			"background-color": "@color-swatch6",
-			"background-color-hover": "@color-swatch2",
-			"letter-spacing": "inherit"
-		},
-		"font7": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "16px",
-			"font-weight": "400",
-			"line-height": "50px",
-			"color": "@color-swatch5",
-			"background-color": "@color-swatch3",
-			"background-color-hover": "@color-swatch3",
-			"letter-spacing": "inherit"
-		},
-		"font8": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "36px",
-			"font-weight": "400",
-			"line-height": "86px",
-			"color": "@color-swatch1",
-			"background-color": "@color-swatch1",
-			"background-color-hover": "@color-swatch1",
-			"letter-spacing": "inherit"
-		},
-		"font9": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "24px",
-			"font-weight": "400",
-			"line-height": "86px",
-			"color": "@color-swatch5",
-			"background-color": "@color-swatch4",
-			"background-color-hover": "@color-swatch4",
-			"letter-spacing": "inherit"
-		},
-		"font10": {
-			"font-family": "\"Palatino\", serif",
-			"font-size": "33px",
-			"font-weight": "400",
-			"line-height": "41px",
-			"color": "@color-swatch5",
-			"background-color": "@color-swatch4",
-			"background-color-hover": "@color-swatch4",
-			"letter-spacing": "inherit"
-		}
-	}
+    },
+    "fontSwatch": {
+        "title": "Palatino",
+        "font1": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "80px",
+            "color": "@color-swatch1",
+            "background-color": "@color-swatch2",
+            "background-color-hover": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "24px",
+            "font-weight": "400",
+            "line-height": "66px",
+            "color": "@color-swatch4",
+            "background-color": "@color-swatch1",
+            "background-color-hover": "@color-swatch2",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "20px",
+            "font-weight": "400",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "background-color": "@color-swatch4",
+            "background-color-hover": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch5",
+            "background-color": "@color-swatch5",
+            "background-color-hover": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "35px",
+            "color": "@color-swatch1",
+            "color-hover": "@color-swatch1",
+            "background-color": "@color-swatch6",
+            "background-color-hover": "@color-swatch2",
+            "letter-spacing": "inherit"
+        },
+        "font7": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "50px",
+            "color": "@color-swatch5",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font8": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "86px",
+            "color": "@color-swatch1",
+            "background-color": "@color-swatch1",
+            "background-color-hover": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "24px",
+            "font-weight": "400",
+            "line-height": "86px",
+            "color": "@color-swatch5",
+            "background-color": "@color-swatch4",
+            "background-color-hover": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Palatino\", serif",
+            "font-size": "33px",
+            "font-weight": "400",
+            "line-height": "41px",
+            "color": "@color-swatch5",
+            "background-color": "@color-swatch4",
+            "background-color-hover": "@color-swatch4",
+            "letter-spacing": "inherit"
+        }
+    },
+    "screenshot": "salute-screenshot.jpg"
 }
